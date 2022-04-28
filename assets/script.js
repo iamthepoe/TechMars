@@ -1,9 +1,11 @@
-document.getElementById('logo').addEventListener('mouseover', ()=>{
-    let logo = document.getElementById('logo');
+var logo = document.getElementById('logo');
+
+logo.addEventListener('mouseover', ()=>{
+    let text = document.getElementById('footer-text');
     logo.style.marginLeft = "200px";
 });
 
-document.getElementById('logo').addEventListener('mouseover', ()=>{
-    let logo = document.getElementById('logo');
+logo.addEventListener('mouseout', ()=>{
+    let text = document.getElementById('footer-text');
     logo.style.marginLeft = "0px";
 });
