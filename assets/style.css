@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
+a{
+    text-decoration: none;
+}
 .logo{
     transition: 0.85s;
     animation: smooth;
@@ -73,6 +81,91 @@
     height: 10vh;
     
 }
+.section{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-a{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/desbackground.jpg');
+    background-size: cover;
+}
+
+.section-a-header, .section-b-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    color: #fff;
+}
+
+.section-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/jodibackground.jpg');
+    background-size: cover;
+}
+.section-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+}
+
+.section-b-content, .section-c-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 60px;
+    width: 40vw;
+    height: 60vh;
+}
+.section-b-content{
+    background: rgba(0, 0, 0, 0.60);
+    border: 6px solid rgb(185, 3, 185);
+}
+.section-c-content{
+    background: rgba(0, 0, 0, 0.60);
+    border: 6px solid rgb(100, 32, 6);
+}
+
+.section-b-careers, .section-c-careers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 60vh;
+}
+
+.section-b-careers{
+    background: rgba(0, 0, 0, 0.60);
+    border: 6px solid rgb(185, 3, 185);
+}
+
+.section-c-careers{
+    background: rgba(0, 0, 0, 0.60);
+    border: 6px solid rgb(100, 32, 6);
+}
+
+.section-b-careers, .section-b-content,.section-c-careers, .section-c-content{
+    margin-left: 20px;
+}
+
+.section-c{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/madbackground.jpg');
+    background-size: cover;
+}
+
 
 .footer{
     display: flex;
