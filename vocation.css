@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.logo{
+    transition: 0.85s;
+    animation: smooth;
+    width: 80px;
+    height: 80px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-image{
+    width: 320px;
+    height: 100px;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list-item{
+    transition: 0.45s;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2rem;
+}
+
+.header-list-item:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.footer{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer-list-item{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75vh;
+}
+
+.main-grid{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 40vw;
+	height: 25vh;
+}
+
+.main-grid-question{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.main-grid-answer{
+	width: 100%;
+	height: 5vh;
+}
+
