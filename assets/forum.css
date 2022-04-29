@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo{
+    transition: 0.85s;
+    animation: smooth;
+    width: 100px;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-image{
+    width: 400px;
+    height: 130px;
+}
+.main, .main-comentarios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+
+.main-comentarios{
+    flex-direction: column;
+    height: 200vh;
+}
+.main-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    margin-top: 6px;
+    text-align: center;
+    resize: vertical;
+    overflow: hidden;
+}
+
+input{
+    height: 4vh;
+}
+
+#btn{
+    margin-top: 2vh;
+    border-radius: 0;
+    height: 5vh;
+    width: 20vw;
+}
+
+button{
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    width: 25vw;
+    height: 10vh;
+    border-radius: 80px;
+    background-color: lavender;
+    transition: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+}
+
+.footer{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer-list-item{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 70vw;
+    height: 25vh;
+}
+
+.comentario-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(179, 179, 179);
+}
+
+.comentario-conteudo{
+    font-family: 'Rubik', sans-serif;
+    overflow: auto;
+    padding: 20px;
+    width: 100%;
+    height: 15vh;
+}
+
+h3, h5{
+    font-family: 'Rubik', sans-serif;
+}

@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Teste Vocacional</title>
-	<link rel="stylesheet" type="text/css" href="./assets/vocation.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar comentário</title>
+    <link rel="stylesheet" href="./assets/forum.css">
 </head>
 <body>
-	<header class="header">
+    <header class="header">
         <a href="index.html"><img src="./assets/images/header_image.png" class="header-image"></a>
     </header>
     <main class="main">
-    	<div class="main-grid">
-    		<h3 class="main-grid-question">Clique em algum botão para iniciar o teste</h3>
-    		<button class="main-grid-answer" id="b1">Concordo</button>
-    		<button class="main-grid-answer" id="b2">Neutro</button>
-    		<button class="main-grid-answer" id="b3">Discordo</button>
-    	</div>
+        <form class="main-form" method="POST" action="comentarios.html">
+            <input type="text" placeholder="Insira seu nome" required>
+            <input type="email" placeholder="Insira seu email" required>
+            <input type="text" placeholder="Título do comentário" required>
+            <textarea placeholder="Insira seu comentário" required></textarea>
+            <button id="btn">Enviar comentário</button>
+        </form>
     </main>
     <footer class="footer">
         <ul class="footer-list">
@@ -27,6 +29,5 @@
         <a hidden id="footer-text">TechMars</a>
         <img src="./assets/images/logo.png" class="logo" id="logo">
     </footer>
-    <script type="text/javascript" src="./assets/vocation.js"></script>
 </body>
 </html>

@@ -11,11 +11,11 @@ let des = 0; let jodi = 0; let mad = 0; let q = 0;
 let verificar = (()=>{
 	if(q==5){
 		if(des>jodi && des>mad){
-			question.innerHTML = "Desenvolvimento de Sistemas";
+			window.location.href = "./etim.html#a";
 		}else if(jodi>des && jodi>mad){
-			question.innerHTML = "Desenvolvimento de Jogos Digitais";
+			window.location.href = "./etim.html#b";
 		}else{
-			question.innerHTML = "Administração";
+			window.location.href = "./etim.html#c";
 		}
 		q = 0;
 		jodi = 0;
@@ -93,7 +93,7 @@ answer[2].addEventListener('click', ()=>{
 		break;
 
 		case 3:
-			mad--;
+			mad-=2;
 		break;
 
 		case 4:
